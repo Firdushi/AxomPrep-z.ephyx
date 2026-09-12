@@ -1,0 +1,2 @@
+import {NextResponse} from 'next/server';import {requireAdmin} from '@/lib/auth';
+export async function DELETE(_:Request,{params}:{params:Promise<{id:string}>}){const {id}=await params;const {supabase}=await requireAdmin();const {error}=await supabase.from('questions').delete().eq('id',id);if(error)return NextResponse.json({error:'Unable to delete question'},{status:400});return NextResponse.json({ok:true})}

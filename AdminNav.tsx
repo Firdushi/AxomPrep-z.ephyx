@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function AdminNav(){return <aside className="admin-nav"><strong>AxomPrep Admin</strong><Link href="/admin">Overview</Link><Link href="/admin/categories">Categories</Link><Link href="/admin/notes">Notes</Link><Link href="/admin/questions">Questions</Link><Link href="/admin/questions/import">Import MCQs</Link><Link href="/admin/tests">Tests</Link><Link href="/admin/current-affairs">Current Affairs</Link><Link href="/">View site</Link></aside>}

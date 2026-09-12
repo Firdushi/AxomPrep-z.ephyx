@@ -1,0 +1,1 @@
+export const metadata={title:'Mission | AxomPrep'};export default function Mission(){return <div className="container page prose"><h1>Our Mission</h1><p>Our mission is to make quality education and exam preparation more accessible, practical and inclusive for learners across Assam.</p></div>}

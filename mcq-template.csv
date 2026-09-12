@@ -1,0 +1,3 @@
+question_en,question_as,option_a,option_b,option_c,option_d,correct_index,explanation_en,explanation_as,difficulty,category
+"What is the SI unit of force?","বলৰ SI একক কি?","Joule","Newton","Watt","Pascal",1,"The SI unit of force is newton.","বলৰ SI একক নিউটন।","easy","Physics"
+"What is 12 × 8?","12 × 8 কিমান?","86","96","108","112",1,"12 multiplied by 8 is 96.","12 ক 8 ৰে গুণ কৰিলে 96 হয়।","easy","Mathematics"

@@ -1,0 +1,1 @@
+export default function EmptyState({title='Nothing here yet',text='There is no content to show right now.'}:{title?:string;text?:string}){return <div className="empty"><h3>{title}</h3><p className="muted">{text}</p></div>}

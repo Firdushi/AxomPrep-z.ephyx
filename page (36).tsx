@@ -1,0 +1,1 @@
+export const metadata={title:'Vision | AxomPrep'};export default function Vision(){return <div className="container page prose"><h1>Our Vision</h1><p>Our vision is to build a trusted digital learning ecosystem where students and exam aspirants across Assam can find the resources, practice and support they need to move confidently towards their goals.</p></div>}

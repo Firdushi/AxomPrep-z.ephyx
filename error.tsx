@@ -1,0 +1,1 @@
+'use client'; export default function ErrorPage({reset}:{error:Error&{digest?:string};reset:()=>void}){return <div className="container page"><div className="error"><h1>Something went wrong</h1><p>Please try again.</p><button className="btn btn-primary" onClick={()=>reset()}>Try again</button></div></div>}
